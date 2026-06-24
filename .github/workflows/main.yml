@@ -34,20 +34,18 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Doxygen. Create HTML documentation
-        uses: mattnotmitt/doxygen-action@v1.1.0
-        with:
-            doxyfile-path: ./Doxyfile
-            working-directory: .
+      - name: Generate documentation
+        run: |
+          sudo apt-get install -y doxygen graphviz
+          doxygen Doxyfile
+          cd docs/html
+          zip -r ../../documentation.zip .
 
-      - name: Doxygen. Deploy documentation to GitHub
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/html/
-          enable_jekyll: false
-          allow_empty_commit: false
-          force_orphan: true
+          publish_dir: ./docs/html
           publish_branch: gh-pages
 
       - name: Upload Release Asset
@@ -60,6 +58,7 @@ jobs:
           asset_path: ./print_ip-0.0.${{ github.run_number }}-Linux.deb
           asset_name: print_ip-0.0.${{ github.run_number }}-Linux.deb
           asset_content_type: application/vnd.debian.binary-package
+          files: documentation.zip
 
 
 
