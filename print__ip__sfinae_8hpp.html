@@ -3,24 +3,15 @@
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
-<meta name="generator" content="Doxygen 1.17.0"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <title>print_ip: Файл src/print_ip/sfinae/print_ip_sfinae.hpp</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="codefolding.js"></script>
-<script type="text/javascript" src="clipboard.js"></script>
-<link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
-<script type="text/javascript" src="cookie.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
-<script type="module">
-import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-const theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'default';
-mermaid.initialize({ startOnLoad: true, theme: theme });
-</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -39,61 +30,23 @@ mermaid.initialize({ startOnLoad: true, theme: theme });
 </table>
 </div>
 <!-- end header part -->
-<!-- Создано системой Doxygen 1.17.0 -->
+<!-- Создано системой Doxygen 1.9.8 -->
 <script type="text/javascript">
-let searchBox = new SearchBox("searchBox", "search/",'.html');
-</script>
-<script type="text/javascript">
-document.addEventListener('DOMContentLoaded', codefold.init);
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
 </script>
 <script type="text/javascript" src="menudata.js"></script>
 <script type="text/javascript" src="menu.js"></script>
 <script type="text/javascript">
-document.addEventListener('DOMContentLoaded', () => {
-  initMenu('',true);
-  init_search();
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
 });
+/* @license-end */
 </script>
-<div id="main-nav-mobile">
-<div class="sm sm-dox"><input id="main-menu-state" type="checkbox"/>
-<label class="main-menu-btn" for="main-menu-state">
-<span class="main-menu-btn-icon"></span> Toggle main menu visibility</label>
-<span id="searchBoxPos1" style="position:absolute;right:8px;top:8px;height:36px;"></span>
-</div>
-</div><!-- main-nav-mobile -->
-<div id="main-nav">
-  <ul class="sm sm-dox" id="main-menu">
-    <li id="searchBoxPos2" style="float:right">
-        <div id="MSearchBox" class="MSearchBoxInactive">
-        <span class="left">
-          <span id="MSearchSelect" class="search-icon" onmouseover="return searchBox.OnSearchSelectShow()" onmouseout="return searchBox.OnSearchSelectHide()"><span class="search-icon-dropdown"></span></span>
-          <input type="text" id="MSearchField" value="" placeholder="Поиск" accesskey="S"
-               onfocus="searchBox.OnSearchFieldFocus(true)" 
-               onblur="searchBox.OnSearchFieldFocus(false)" 
-               onkeyup="searchBox.OnSearchFieldChange(event)"/>
-          </span><span class="right">
-            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><div id="MSearchCloseImg" class="close-icon"></div></a>
-          </span>
-        </div>
-    </li>
-  </ul>
-</div><!-- main-nav -->
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
-<script type="text/javascript">
-document.addEventListener('DOMContentLoaded',() => { initNavTree('print__ip__sfinae_8hpp.html','',''); });
-</script>
-<div id="container">
-<div id="doc-content">
+<div id="main-nav"></div>
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -115,7 +68,15 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('print__ip__sfi
 </div>
 </div>
 
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_671b48e3ecf0fd637fdb61c8fdb8b95a.html">print_ip</a></li><li class="navelem"><a class="el" href="dir_f31a80f8dab9ac60328ed7b3b71838bf.html">sfinae</a></li>  </ul>
+</div>
+</div><!-- top -->
 <div class="header">
+  <div class="summary">
+<a href="#nested-classes">Классы</a> &#124;
+<a href="#func-members">Функции</a>  </div>
   <div class="headertitle"><div class="title">Файл print_ip_sfinae.hpp</div></div>
 </div><!--header-->
 <div class="contents">
@@ -127,65 +88,71 @@ document.addEventListener('DOMContentLoaded',() => { initNavTree('print__ip__sfi
 </div><div class="textblock"><div class="dynheader">
 Граф включаемых заголовочных файлов для print_ip_sfinae.hpp:</div>
 <div class="dyncontent">
-<div class="center"><img src="print__ip__sfinae_8hpp__incl.png" border="0" usemap="#asrc_2print__ip_2sfinae_2print__ip__sfinae_8hpp" loading="lazy" alt=""/></div>
+<div class="center"><img src="print__ip__sfinae_8hpp__incl.png" border="0" usemap="#asrc_2print__ip_2sfinae_2print__ip__sfinae_8hpp" alt=""/></div>
 <map name="asrc_2print__ip_2sfinae_2print__ip__sfinae_8hpp" id="asrc_2print__ip_2sfinae_2print__ip__sfinae_8hpp">
-<area shape="rect" title=" " alt="" coords="167,5,299,46"/>
-<area shape="rect" title=" " alt="" coords="5,94,77,120"/>
-<area shape="poly" title=" " alt="" coords="186,49,85,90,83,85,184,44"/>
-<area shape="rect" title=" " alt="" coords="100,94,182,120"/>
-<area shape="poly" title=" " alt="" coords="212,48,168,86,165,82,209,44"/>
-<area shape="rect" title=" " alt="" coords="206,94,260,120"/>
-<area shape="poly" title=" " alt="" coords="236,46,236,78,230,78,230,46"/>
-<area shape="rect" title=" " alt="" coords="284,94,334,120"/>
-<area shape="poly" title=" " alt="" coords="254,45,289,81,285,84,250,48"/>
-<area shape="rect" title=" " alt="" coords="358,94,409,120"/>
-<area shape="poly" title=" " alt="" coords="272,44,348,84,346,89,269,49"/>
+<area shape="rect" title=" " alt="" coords="181,5,331,45"/>
+<area shape="rect" title=" " alt="" coords="5,93,85,119"/>
+<area shape="poly" title=" " alt="" coords="206,48,90,91,88,86,205,43"/>
+<area shape="rect" title=" " alt="" coords="110,93,202,119"/>
+<area shape="poly" title=" " alt="" coords="233,48,183,87,180,82,230,43"/>
+<area shape="rect" title=" " alt="" coords="227,93,285,119"/>
+<area shape="poly" title=" " alt="" coords="259,46,259,79,253,79,253,46"/>
+<area shape="rect" title=" " alt="" coords="310,93,365,119"/>
+<area shape="poly" title=" " alt="" coords="278,44,317,82,313,85,274,47"/>
+<area shape="rect" title=" " alt="" coords="389,93,449,119"/>
+<area shape="poly" title=" " alt="" coords="296,43,383,85,381,90,294,48"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
 Граф файлов, в которые включается этот файл:</div>
 <div class="dyncontent">
-<div class="center"><img src="print__ip__sfinae_8hpp__dep__incl.png" border="0" usemap="#asrc_2print__ip_2sfinae_2print__ip__sfinae_8hppdep" loading="lazy" alt=""/></div>
+<div class="center"><img src="print__ip__sfinae_8hpp__dep__incl.png" border="0" usemap="#asrc_2print__ip_2sfinae_2print__ip__sfinae_8hppdep" alt=""/></div>
 <map name="asrc_2print__ip_2sfinae_2print__ip__sfinae_8hppdep" id="asrc_2print__ip_2sfinae_2print__ip__sfinae_8hppdep">
-<area shape="rect" title=" " alt="" coords="5,5,138,46"/>
-<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="24,94,119,120"/>
-<area shape="poly" title=" " alt="" coords="74,62,74,93,69,93,69,62"/>
+<area shape="rect" title=" " alt="" coords="5,5,155,45"/>
+<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="27,93,133,119"/>
+<area shape="poly" title=" " alt="" coords="83,59,83,93,77,93,77,59"/>
 </map>
 </div>
 </div>
 <p><a href="print__ip__sfinae_8hpp_source.html">См. исходные тексты.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-nested-classes" class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Классы</h2></td></tr>
-<tr class="memitem:is_5Fcontainer_3C_20typename_2C_20typename_20_3E" id="r_is_5Fcontainer_3C_20typename_2C_20typename_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structis__container.html">is_container&lt; typename, typename &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structis__container.html">is_container&lt; typename, typename &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Проверка, является ли тип контейнером  <a href="structis__container.html#details">Подробнее...</a><br /></td></tr>
-<tr class="memitem:is_5Fcontainer_3C_20T_2C_20std_3A_3Avoid_5Ft_3C_20decltype_28std_3A_3Adeclval_3C_20T_20_26_20_3E_28_29_2Ebegin_28_29_29_2C_20decltype_28std_3A_3Adeclval_3C_20T_20_26_20_3E_28_29_2Eend_28_29_29_3E_20_3E" id="r_is_5Fcontainer_3C_20T_2C_20std_3A_3Avoid_5Ft_3C_20decltype_28std_3A_3Adeclval_3C_20T_20_26_20_3E_28_29_2Ebegin_28_29_29_2C_20decltype_28std_3A_3Adeclval_3C_20T_20_26_20_3E_28_29_2Eend_28_29_29_3E_20_3E"><td class="memItemLeft">struct &#160;</td><td class="memItemRight"><a class="el" href="structis__container_3_01T_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01T_01_6_01_4_07_07ad3093ad889b27dc4aaf0b8ed1e803b.html">is_container&lt; T, std::void_t&lt; decltype(std::declval&lt; T &amp; &gt;().begin()), decltype(std::declval&lt; T &amp; &gt;().end())&gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structis__container_3_01T_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01T_01_6_01_4_07_07ad3093ad889b27dc4aaf0b8ed1e803b.html">is_container&lt; T, std::void_t&lt; decltype(std::declval&lt; T &amp; &gt;().begin()), decltype(std::declval&lt; T &amp; &gt;().end())&gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 id="header-func-members" class="groupheader"><a id="func-members" name="func-members"></a>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Функции</h2></td></tr>
-<tr class="memitem:abedce6070067e5ef2d04a1d209246aa1" id="r_abedce6070067e5ef2d04a1d209246aa1"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:abedce6070067e5ef2d04a1d209246aa1 template"><td class="memItemLeft">auto&#160;</td><td class="memItemRight"><a class="el" href="#abedce6070067e5ef2d04a1d209246aa1">print_ip</a> (T value) -&gt; std::enable_if_t&lt; std::is_integral_v&lt; T &gt;, void &gt;</td></tr>
+<tr class="memitem:abedce6070067e5ef2d04a1d209246aa1" id="r_abedce6070067e5ef2d04a1d209246aa1"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:abedce6070067e5ef2d04a1d209246aa1"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="print__ip__sfinae_8hpp.html#abedce6070067e5ef2d04a1d209246aa1">print_ip</a> (T value) -&gt; std::enable_if_t&lt; std::is_integral_v&lt; T &gt;, void &gt;</td></tr>
 <tr class="memdesc:abedce6070067e5ef2d04a1d209246aa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод IP-адреса для целочисленных типов  <br /></td></tr>
-<tr class="memitem:a7f341c03fc92c586d6fec469aa11cd0c" id="r_a7f341c03fc92c586d6fec469aa11cd0c"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
-<tr class="memitem:a7f341c03fc92c586d6fec469aa11cd0c template"><td class="memItemLeft">auto&#160;</td><td class="memItemRight"><a class="el" href="#a7f341c03fc92c586d6fec469aa11cd0c">print_ip</a> (const T &amp;value) -&gt; std::enable_if_t&lt; std::is_same_v&lt; std::decay_t&lt; T &gt;, std::string &gt;, void &gt;</td></tr>
+<tr class="separator:abedce6070067e5ef2d04a1d209246aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f341c03fc92c586d6fec469aa11cd0c" id="r_a7f341c03fc92c586d6fec469aa11cd0c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a7f341c03fc92c586d6fec469aa11cd0c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="print__ip__sfinae_8hpp.html#a7f341c03fc92c586d6fec469aa11cd0c">print_ip</a> (const T &amp;value) -&gt; std::enable_if_t&lt; std::is_same_v&lt; std::decay_t&lt; T &gt;, std::string &gt;, void &gt;</td></tr>
 <tr class="memdesc:a7f341c03fc92c586d6fec469aa11cd0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод IP-адреса для строк  <br /></td></tr>
-<tr class="memitem:a3456295b395b0bbb81b0d66fb214bacc" id="r_a3456295b395b0bbb81b0d66fb214bacc"><td class="memTemplParams" colspan="2">template&lt;typename T, typename = std::enable_if_t&lt;is_container&lt;T&gt;::value&gt;&gt; </td></tr>
-<tr class="memitem:a3456295b395b0bbb81b0d66fb214bacc template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3456295b395b0bbb81b0d66fb214bacc">print_ip</a> (const T &amp;container)</td></tr>
+<tr class="separator:a7f341c03fc92c586d6fec469aa11cd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3456295b395b0bbb81b0d66fb214bacc" id="r_a3456295b395b0bbb81b0d66fb214bacc"><td class="memTemplParams" colspan="2">template&lt;typename T , typename  = std::enable_if_t&lt;is_container&lt;T&gt;::value&gt;&gt; </td></tr>
+<tr class="memitem:a3456295b395b0bbb81b0d66fb214bacc"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="print__ip__sfinae_8hpp.html#a3456295b395b0bbb81b0d66fb214bacc">print_ip</a> (const T &amp;container)</td></tr>
 <tr class="memdesc:a3456295b395b0bbb81b0d66fb214bacc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Вывод IP-адреса для контейнеров  <br /></td></tr>
+<tr class="separator:a3456295b395b0bbb81b0d66fb214bacc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="doc-func-members" id="doc-func-members"></a><h2 id="header-doc-func-members" class="groupheader">Функции</h2>
+<h2 class="groupheader">Функции</h2>
 <a id="a3456295b395b0bbb81b0d66fb214bacc" name="a3456295b395b0bbb81b0d66fb214bacc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3456295b395b0bbb81b0d66fb214bacc">&#9670;&#160;</a></span>print_ip() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename = std::enable_if_t&lt;is_container&lt;T&gt;::value&gt;&gt; </div>
+template&lt;typename T , typename  = std::enable_if_t&lt;is_container&lt;T&gt;::value&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void print_ip </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>container</em></span></td><td>)</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -214,13 +181,15 @@ template&lt;typename T, typename = std::enable_if_t&lt;is_container&lt;T&gt;::va
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto print_ip </td>
           <td>(</td>
-          <td class="paramtype">const T &amp;</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
-          <td> -&gt; std::enable_if_t&lt; std::is_same_v&lt; std::decay_t&lt; T &gt;, std::string &gt;, void &gt;</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td> -&gt; std::enable_if_t&lt;std::is_same_v&lt;std::decay_t&lt;T&gt;, std::string&gt;, void&gt;
+</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -248,13 +217,15 @@ template&lt;typename T&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T&gt; </div>
+template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto print_ip </td>
           <td>(</td>
-          <td class="paramtype">T</td>          <td class="paramname"><span class="paramname"><em>value</em></span></td><td>)</td>
-          <td> -&gt; std::enable_if_t&lt; std::is_integral_v&lt; T &gt;, void &gt;</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td> -&gt; std::enable_if_t&lt;std::is_integral_v&lt;T&gt;, void&gt;
+</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -277,21 +248,9 @@ template&lt;typename T&gt; </div>
 </div>
 </div>
 </div><!-- contents -->
-</div><!-- doc-content -->
-<div id="page-nav" class="page-nav-panel">
-<div id="page-nav-resize-handle"></div>
-<div id="page-nav-tree">
-<div id="page-nav-contents">
-</div><!-- page-nav-contents -->
-</div><!-- page-nav-tree -->
-</div><!-- page-nav -->
-</div><!-- container -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a href="dir_671b48e3ecf0fd637fdb61c8fdb8b95a.html">print_ip</a></li><li class="navelem"><a href="dir_f31a80f8dab9ac60328ed7b3b71838bf.html">sfinae</a></li><li class="navelem"><a href="print__ip__sfinae_8hpp.html">print_ip_sfinae.hpp</a></li>
-    <li class="footer">Создано системой <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.17.0 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
 </body>
 </html>

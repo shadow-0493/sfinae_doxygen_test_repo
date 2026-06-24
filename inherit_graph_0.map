@@ -1,9 +1,5 @@
 <map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
-<area shape="rect" id="Node000000" title=" " alt="" coords="5,103,110,129"/>
-<area shape="rect" id="Node000001" href="$structis__container_3_01T_00_01std_1_1void__t_3_01decltype_07std_1_1declval_3_01T_01_6_01_4_07_07ad3093ad889b27dc4aaf0b8ed1e803b.html" title=" " alt="" coords="160,5,318,91"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="107,95,159,75,161,80,109,100"/>
-<area shape="rect" id="Node000003" href="$structis__container.html" title="Проверка, является ли тип контейнером" alt="" coords="158,114,320,155"/>
-<area shape="poly" id="edge2_Node000000_Node000003" title=" " alt="" coords="125,120,158,124,157,129,125,126"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="10,35,105,61"/>
-<area shape="poly" id="edge3_Node000002_Node000001" title=" " alt="" coords="120,46,160,46,160,51,120,51"/>
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,13,124,38"/>
+<area shape="rect" id="Node000001" href="$structis__container.html" title="Проверка, является ли тип контейнером" alt="" coords="172,5,359,45"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="138,23,172,23,172,28,138,28"/>
 </map>
