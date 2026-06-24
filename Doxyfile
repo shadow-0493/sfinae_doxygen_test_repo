@@ -1,0 +1,23 @@
+PROJECT_NAME           = "print_ip"
+PROJECT_BRIEF          = "SFINAE+Doxygen (Homework 4)"
+PROJECT_LOGO           =
+
+OUTPUT_LANGUAGE        = Russian
+
+
+OUTPUT_DIRECTORY       = docs
+INPUT                  = ./
+RECURSIVE              = YES
+FILE_PATTERNS          = *.h *.hpp *.cpp
+EXCLUDE                =
+EXCLUDE_PATTERNS       = */build/* */test/*
+
+HAVE_DOT               = YES
+EXTRACT_ALL            = YES
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+GENERATE_RTF           = NO
+GENERATE_MAN           = NO
